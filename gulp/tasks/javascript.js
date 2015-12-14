@@ -14,7 +14,7 @@ var glob = require('glob');
 var es = require('event-stream');
 
 gulp.task('javascript', function () {
-  return glob('./public/js/index.js', function (err, files) {
+  return glob('./js/index.js', function (err, files) {
     // map files to stream function
     var tasks = files.map(function (entry) {
       return browserify({
@@ -28,7 +28,7 @@ gulp.task('javascript', function () {
           dirname: './',
           extname: '.bundle.js'
         }))
-        .pipe(gulp.dest('./public/js/dist'));
+        .pipe(gulp.dest('./js/dist'));
     });
 
     // create a merged stream

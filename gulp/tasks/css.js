@@ -8,7 +8,7 @@ let cssimporturl = require('postcss-import');
 let nested = require('postcss-nested');
 
 gulp.task('css', () => {
-  gulp.src('public/css/index.css')
+  gulp.src('css/index.css')
     .pipe(postcss([
       autoprefixer({
         browsers: ['last 4 versions'],
@@ -18,5 +18,5 @@ gulp.task('css', () => {
       cssimporturl,
       nested
     ]))
-    .pipe(gulp.dest('public/css/dist'));
+    .pipe(gulp.dest('css/dist'));
 });
