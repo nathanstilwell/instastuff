@@ -1,0 +1,24 @@
+@import 'https://fonts.googleapis.com/css?family=Sigmar+One|Lobster+Two:700|Playball|Overlock|Luckiest+Guy|Sancreek|Amatic+SC|Kaushan+Script|Berkshire+Swash|Open+Sans:700';
+
+.f1 { font-size: 4rem; }
+.f2 { font-size: 3rem; }
+.f3 { font-size: 1.5rem; }
+.f4 { font-size: 1.125rem; }
+.f5 { font-size: 1rem; }
+.f6 { font-size: 0.875rem; }
+
+.ff-lobster-two {
+  font-family: 'Lobster Two';
+}
+
+.ff-overlock {
+  font-family: 'Overlock';
+}
+
+.ff-playball {
+  font-family: 'Playball';
+}
+
+.ff-sigma-one {
+  font-family: 'Sigmar One';
+}

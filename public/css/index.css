@@ -1,0 +1,24 @@
+@import "normalize.css";
+@import "basscss";
+@import "src/fonts.css";
+
+html, body {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.full-height {
+  height: 95%;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.shadow {
+  text-shadow: -0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.85);
+}
