@@ -4,11 +4,13 @@ var getStream = require('./src/getStream');
 var fonts = require('./src/fonts');
 var filters = require('./src/filters');
 var artTemplate = require('../templates/art.hbs');
-var mainElem = document.getElementById('main');
+var grid = document.getElementById('grid');
 
 function changeFilter (el) {
   var filter = filters.randomFilter();
   var img = el.querySelector('img');
+  // I'm cheating
+  img.style.webkitFilter = filter;
   img.style.filter = filter;
 }
 
@@ -27,7 +29,7 @@ function render (model) {
   model.fontFamily = fonts.randomFontFamily();
   model.filter = filters.randomFilter();
   model.fontColor = fonts.randomColor();
-  mainElem.innerHTML += artTemplate(model);
+  grid.innerHTML += artTemplate(model);
 }
 
 getStream(function (thing) {
