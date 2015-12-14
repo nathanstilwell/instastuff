@@ -1447,20 +1447,44 @@ hr {
 .f5 { font-size: 1rem; }
 .f6 { font-size: 0.875rem; }
 
-.ff-lobster-two {
+.lobster-two {
   font-family: 'Lobster Two';
 }
 
-.ff-overlock {
+.overlock {
   font-family: 'Overlock';
 }
 
-.ff-playball {
+.playball {
   font-family: 'Playball';
 }
 
-.ff-sigma-one {
+.sigmar-one {
   font-family: 'Sigmar One';
+}
+
+.amatic-sc {
+  font-family: 'Amatic SC';
+}
+
+.berkshire-swash {
+  font-family: 'Berkshire Swash';
+}
+
+.kaushan-script {
+  font-family: 'Kaushan Script';
+}
+
+.luckiest-guy {
+  font-family: 'Luckiest Guy';
+}
+
+.open-sans {
+  font-family: 'Open Sans';
+}
+
+.sancreek {
+  font-family: 'Sancreek';
 }
 
 html, body {
@@ -1473,7 +1497,7 @@ html, body {
 }
 
 .full-height {
-  height: 95%;
+  height: 100%;
 }
 
 .cursor {
@@ -1482,4 +1506,13 @@ html, body {
 
 .shadow {
   text-shadow: -0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.85);
+}
+
+.big-title {
+  font-size: 6rem;
+  line-height: 8rem;
+  -webkit-transform: rotate(-8deg);
+      -ms-transform: rotate(-8deg);
+          transform: rotate(-8deg);
+  text-shadow: -0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.35);
 }

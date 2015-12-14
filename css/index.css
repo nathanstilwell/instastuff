@@ -12,7 +12,7 @@ html, body {
 }
 
 .full-height {
-  height: 95%;
+  height: 100%;
 }
 
 .cursor {
@@ -21,4 +21,11 @@ html, body {
 
 .shadow {
   text-shadow: -0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.85);
+}
+
+.big-title {
+  font-size: 6rem;
+  line-height: 8rem;
+  transform: rotate(-8deg);
+  text-shadow: -0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.35);
 }
